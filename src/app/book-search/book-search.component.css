@@ -1,0 +1,62 @@
+body {  
+  font-family: 'Roboto', sans-serif;  
+  background-color: #f0f2f5;  
+  margin: 0;  
+  padding: 0;  
+}  
+
+.container {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  padding: 20px;  
+}  
+
+.search-bar {  
+  display: flex;  
+  width: 80%;  
+  max-width: 600px;  
+  margin-bottom: 20px;  
+  border-radius: 8px; /* Bordas arredondadas */  
+  overflow: hidden; /* Para evitar que os elementos internos ultrapassem os limites */  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra mais suave */  
+  background-color: white; /* Fundo branco para a barra */  
+}  
+
+.search-bar input {  
+  flex: 1;  
+  padding: 12px; /* Ajustar padding para um visual melhor */  
+  border: none; /* Remover borda */  
+  outline: none; /* Remover contorno ao focar */  
+  font-size: 16px;  
+  background-color: #f9f9f9; /* Fundo para o input */  
+  transition: background-color 0.3s; /* Transição suave para o fundo */  
+}  
+
+.search-bar input::placeholder {  
+  color: #aaa; /* Cor do placeholder */  
+}  
+
+.search-bar input:focus {  
+  background-color: #ffffff; /* Mudança de fundo ao focar */  
+}  
+
+.search-bar button {  
+  padding: 12px 20px; /* Aumentar padding do botão */  
+  border: none;  
+  background-color: #007bff;  
+  color: white;  
+  font-size: 16px;  
+  cursor: pointer;  
+  transition: background-color 0.3s; /* Transição suave para o botão */  
+}  
+
+.search-bar button:hover {  
+  background-color: #0056b3; /* Mudar a cor do botão ao passar o mouse */  
+  transform: scale(1.05); /* Efeito de aumento no hover */  
+}  
+
+.book-list-container {  
+  width: 100%;  
+  max-width: 1200px;  
+}
