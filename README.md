@@ -21,7 +21,7 @@ Siga as instruções abaixo para configurar e rodar a aplicação localmente.
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/explorador-de-livros.git
+    git clone [https://github.com/seu-usuario/explorador-de-livros.git](https://github.com/Fernando32117/Busca-de-Livros.git)
     cd explorador-de-livros
     ```
 
